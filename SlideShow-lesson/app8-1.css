@@ -1,0 +1,10 @@
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+/*html全体に対して設定するとき:rootを使う（多分）*/
+:root {
+  --swiper-navigation-color: #ffffff;
+  --swiper-pagination-color: #ffffff;
+}

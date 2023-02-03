@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <!--ここからSwiperをCDNで導入するためのコード-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--ここまで-->
+    <link rel="stylesheet" href="app8-1.css" />
+    <title>Swiper導入</title>
+  </head>
+  <body>
+    <!--Swiperを実装する際に必須なCSSのclass-->
+    <!--swiperクラス：スライダショー箇所全体を内包する要素-->
+    <div class="swiper">
+      <!--swiper-wrapperクラス：スライド部を内包する要素-->
+      <div class="swiper-wrapper">
+        <!--swiper-slideクラス：各スライドを入れる要素-->
+        <div class="swiper-slide">
+          <img src="img/nature-1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/nature-2.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/nature-3.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/nature-4.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/nature-5.jpg" alt="">
+        </div>
+      </div>
+      <!-- ページネーションの要素 -->
+      <div class="swiper-pagination"></div>
+      <!-- ナビゲーションボタン （前、次） -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <script src="app8-1.js"></script>
+  </body>
+</html>
